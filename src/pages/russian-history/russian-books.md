@@ -1,0 +1,89 @@
+---
+title: "Book List"
+date: "2019-05-04"
+tag: "russian-history"
+---
+
+- [x] The Emergence of Rus: 750 - 1200
+- [x] Dialectical and Historical Materialism
+- [x] Russia: A Short History
+- [x] Ekaterinburg: The Last Days of the Romanovs
+- [x] The Decline of the Soviet Union
+- [x] Wall Street and the Bolshevik Revolution
+- [x] The End of Tsarist Russia
+- [x] Russia and Its Islamic World
+- [x] Nothing is True and Everything is Possible
+- [x] Putin Country
+- [x] Russia Under the Old Regime
+- [x] The Bronze Horseman
+- [x] The Dagaev Affair
+- [ ] The Brothers Karamazov
+- [ ] Fascism: What is is and How to Fight It
+- [ ] Marxism and the National Question
+- [ ] What is to Be Done? (Lenin)
+- [ ] Socialism, Utopian and Scientific
+- [ ] The Russian Primary Chronicle
+- [ ] What is to Be Done? (Chernyshevsky)
+- [ ] The Gulag Archipelago
+- [ ] Ibn Fadlan and the Land of Darkness
+- [ ] Fathers and Sons
+- [ ] Vasily Grossman and the Soviet Century
+- [ ] Catherine & Diderot
+- [ ] We Need to Talk About Putin
+- [ ] The Prophet: The Life of Leon Trotsky
+- [ ] The Greatest Short Stories of Leo Tolstoy
+- [ ] Islam and the Soviet Union
+- [ ] The USSR and the Muslim World
+- [ ] Islam in Russia
+- [ ] For Prophet and Tsar
+- [ ] The Great Rebirth: Lessons from the Victory of Capitalism over Communism
+- [ ] How Capitalism Was Built: The Transformation of Central and Eastern Europe, Russia, the Caucasus, and Central Asia
+- [ ] Moscow 1956: The Silenced Spring
+- [ ] Moscow in Movement
+- [ ] Violent Entrepreneurs: The Use of Force in the Making of Russian Capitalism
+- [ ] The Cambridge History of Russia
+- [ ] History of Ukraine-Rus
+- [ ] Russia (John Thompson)
+- [ ] One Day in the Life of Ivan Denisovich
+- [ ] Dead Souls
+- [ ] Wage-Labour and Capital & Value, Price, and Profit
+- [ ] Essential Works of Lenin
+- [ ] The Fourth Way
+- [ ] Bukharin and the Bolshevik Revolution
+- [ ] Russian Hajj
+- [ ] The Chronicle of Novgorod
+- [ ] A History of Russia, Central Asia and Mongolia
+- [ ] History of the Russian Revolution (Leon Trotsky)
+- [ ] Catherine the Great: A Short History
+- [ ] Russia in the Age of Peter the Great
+- [ ] Russia's Age of Serfdom: 1649 - 1861
+- [ ] Origins of the Russian Intelligentsia
+- [ ] Stalin: A Biography
+- [ ] Stalin: New Biography of a Dictator
+- [ ] Lenin: A Biography
+- [ ] Trotsky: A Biography
+- [ ] The Last Tsar: The Life and Death of Nicholas II
+- [ ] Karamzin's Memoir on Ancient and Modern Russia
+- [ ] Russian Thinkers
+- [ ] Letters from Russia
+- [ ] The Collected Tales of Nikolai Gogol
+- [ ] The Domostroi: Rules for Russian Households in the Time on Ivan the Terrible
+- [ ] Prince A.M. Kurbsky's History of Ivan IV
+- [ ] Days of a Russian Noblewoman
+- [ ] Picturing Russia: Explorations in Visual Culture
+- [ ] A History of Russia: Peoples, Legends, Events, Forces
+- [ ] Peter the Great Transforms Russia
+- [ ] Readings in Russian Civilization
+- [ ] A History of Russia (Nicholas Riasanovsky)
+- [ ] First Person
+- [ ] Lenin's Tomb
+- [ ] In Confidence: Moscow's Ambassador to Six Cold War Presidents
+- [ ] The KGB Files of Andrei Sakharov
+- [ ] A Writer at War: A Soviet Journalist with the Red Army
+- [ ] Stalinism as a Way of Life
+- [ ] Intimacy and Terror: Soviet Diaries
+- [ ] The Fatal Eggs
+- [ ] Behind the Urals: An American Worker in Russia's City of Steel
+- [ ] The First Socialist Society
+- [ ] Mission to the Volga
+- [ ] Ibn Fadlan's Journey to Russia
