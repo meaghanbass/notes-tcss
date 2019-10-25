@@ -67,14 +67,6 @@
     list-style-type: none;
 }
 
-.markdown .pre-sm {
-    margin-bottom: 0;
-    padding: 0 .5rem;
-    width: max-content;
-    display: inline-flex;
-    background: rgba(144,102,184,0.2);
-}
-
 .markdown pre {
     display: flex;
     align-content: center;
@@ -84,6 +76,22 @@
 .markdown pre code {
     line-height: 1.6;
     display: flex;
+}
+
+.markdown .pre-sm {
+    margin-bottom: 0;
+    padding: 0 .5rem;
+    width: max-content;
+    display: inline-flex;
+    background: rgba(144,102,184,0.2);
+}
+
+.markdown .pre-md {
+    margin-bottom: 0;
+    padding: 0.5rem 1rem;
+    width: max-content;
+    display: inline-flex;
+    background: rgba(144,102,184,0.2);
 }
 
 iframe {

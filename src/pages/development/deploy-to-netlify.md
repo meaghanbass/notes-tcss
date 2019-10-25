@@ -7,7 +7,7 @@ tag: "dev"
 * Create a new repo - 
     * ***Leave "Initialize the repo with a README" unchecked***
 * cd into blog directory on your computer
-* <pre class="pre-sm">> git init
+* <pre class="pre-md">> git init
 > git add .
 > git commit -m "initial commit"
 > git remote add origin https://github.com/yourname/your-repo.git
