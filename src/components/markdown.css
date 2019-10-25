@@ -1,6 +1,7 @@
 .markdown {
     /* width: 960px; */
     width: 740px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -93,4 +94,13 @@ iframe {
     height: 700px;
     border: none;
     box-shadow: 0 6px 8px rgba(102,119,136,.03),0 1px 2px rgba(102,119,136,.3);
+}
+
+@media screen and (max-width: 768px) {
+    .markdown ol{
+        padding-left: 15px;
+    }
+    .markdown ul{
+        padding-left: 25px;
+    }
 }

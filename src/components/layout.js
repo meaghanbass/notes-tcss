@@ -39,6 +39,7 @@ export default ({ children }) => {
             // margin: `90px`,
             // width: `100%`,
             width: `740px`,
+            maxWidth: `80vw`,
             margin: `auto`,
             fontWeight: `300`,
             color: `var(--slate)`,
