@@ -39,6 +39,13 @@ const Styles = styled.div`
         color: white;
         transition: transform 250ms ease, color 250ms linear;
     }
+    @media screen and (max-width: 768px) {
+        .btn-round {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+    }
 `
 
 export default () => (
