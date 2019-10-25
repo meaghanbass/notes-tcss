@@ -12,7 +12,6 @@ export default ({ children }) => {
                     edges {
                     node {
                         frontmatter {
-                        date
                         title
                         tag
                         }
