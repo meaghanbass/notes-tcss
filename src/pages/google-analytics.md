@@ -1,6 +1,5 @@
 ---
 title: "Google Analytics"
-date: "2019-10-24"
 tag: "other"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Keyboard Shortcuts (Mac)"
-date: "2017-08-10"
 tag: "dev"
 ---
 

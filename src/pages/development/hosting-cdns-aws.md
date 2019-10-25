@@ -1,6 +1,5 @@
 ---
 title: "Hosting CDNs on AWS"
-date: "2019-10-24"
 tag: "dev"
 ---
 

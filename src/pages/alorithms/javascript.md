@@ -1,6 +1,5 @@
 ---
 title: "Javascript Algorithms"
-date: "2019-10-24"
 tag: "algorithms"
 ---
 

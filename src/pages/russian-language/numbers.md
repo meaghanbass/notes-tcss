@@ -1,6 +1,5 @@
 ---
 title: "Numbers"
-date: "2017-08-10"
 tag: "russian-language"
 emoji: "🇷🇺"
 ---

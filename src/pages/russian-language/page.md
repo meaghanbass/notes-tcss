@@ -1,6 +1,5 @@
 ---
 title: "Russian tag page"
-date: "2017-08-10"
 tag: "russian-language"
 ---
 

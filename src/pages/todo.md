@@ -1,6 +1,5 @@
 ---
 title: "To Do"
-date: "2019-10-24"
 tag: "other"
 ---
 

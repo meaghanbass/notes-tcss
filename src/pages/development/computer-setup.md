@@ -1,6 +1,5 @@
 ---
 title: "New Computer Setup"
-date: "2019-05-04"
 tag: "dev"
 ---
 
