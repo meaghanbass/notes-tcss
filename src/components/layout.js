@@ -43,8 +43,6 @@ export default ({ children }) => {
             margin: `auto`,
             fontWeight: `300`,
             color: `var(--slate)`,
-            paddingTop: `90px`,
-            paddingBottom: `90px`,
           }}
           >
 
