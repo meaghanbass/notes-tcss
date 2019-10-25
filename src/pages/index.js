@@ -13,6 +13,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div className="index-wrapper">
+        <h1>Notes</h1>
         <Other></Other>
         <RussianLanguage></RussianLanguage>
         <RussianHistory></RussianHistory>
