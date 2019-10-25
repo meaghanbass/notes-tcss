@@ -22,7 +22,7 @@ module.exports = {
           name: `gatsby-starter-default`,
           short_name: `starter`,
           start_url: `/`,
-          icon: `src/images/fav.png`,
+          icon: `src/images/fav_transparent.png`,
         },
       },
     `gatsby-plugin-styled-components`,
