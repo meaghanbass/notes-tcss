@@ -12,12 +12,13 @@ export default ({ data }) => {
   console.log(data)
   return (
     <Layout>
-      {/* <i class="icon ion-md-pricetag"></i> */}
-      <Other></Other>
-      <RussianLanguage></RussianLanguage>
-      <RussianHistory></RussianHistory>
-      <Development></Development>
-      <Algorithms></Algorithms>
+      <div className="index-wrapper">
+        <Other></Other>
+        <RussianLanguage></RussianLanguage>
+        <RussianHistory></RussianHistory>
+        <Development></Development>
+        <Algorithms></Algorithms>
+      </div>
     </Layout>
   )
 }

@@ -2,9 +2,9 @@
     /* width: 960px; */
     width: 740px;
     max-width: 100%;
-    margin: auto;
-    position: absolute;
-    top: 90px;
+    margin: 0 auto;
+    /* position: absolute; */
+    /* margin-top: 90px; */
 }
 
 .markdown h1 {
@@ -136,6 +136,9 @@ section code {
 }
 
 @media screen and (max-width: 768px) {
+    .markdown {
+        max-width: 90%;
+    }
     .markdown ol{
         padding-left: 15px;
     }

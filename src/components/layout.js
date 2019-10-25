@@ -26,30 +26,19 @@ export default ({ children }) => {
   )
   return (
     <React.Fragment>
-      <main
-          style={{
-            minHeight: `100vh`,
-            display: `flex`,
-          }}
-        >
-          <div style={{
+      <main>
+          {/* <div style={{
             display: `flex`,
             flexDirection: `column`,
             alignSelf: `center`,
-            // margin: `90px`,
-            // width: `100%`,
-            width: `740px`,
-            maxWidth: `80vw`,
-            margin: `auto`,
             fontWeight: `300`,
             color: `var(--slate)`,
           }}
-          >
+          > */}
 
-            <div>
               {children}
-            </div>
-          </div>
+
+          {/* </div> */}
         </main>
         <footer
           

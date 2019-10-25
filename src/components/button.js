@@ -14,6 +14,7 @@ const Styles = styled.div`
         // top: 90px;
         // left: 90px;
         // position: absolute;
+        margin-top: 90px;
         z-index: 2;
         box-shadow: 0 6px 8px rgba(102,119,136,.03),0 1px 2px rgba(102,119,136,.3);
     }
@@ -41,9 +42,7 @@ const Styles = styled.div`
     }
     @media screen and (max-width: 768px) {
         .btn-round {
-            position: absolute;
-            top: 30px;
-            left: 30px;
+            margin-top: 30px;
         }
     }
 `
