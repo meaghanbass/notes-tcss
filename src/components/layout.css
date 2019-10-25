@@ -156,3 +156,9 @@ ul li {
   width: 600px;
   height: 500px;
 }
+
+@media screen and (max-width: 768px) {
+  .index-wrapper {
+    margin-top: 30px;
+  }
+}
