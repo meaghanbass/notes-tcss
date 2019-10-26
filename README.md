@@ -1,5 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<div style="display:inline-block;text-align:center;">
+<div style="width: 100vw; display: inline-block; text-align: center;">
 <img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png"><img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png"><img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png">
 <div>
 
