@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-tag: "russian-history"
+tag: ["russian-history"]
 ---
 
 * https://www.marxists.org/index.htm

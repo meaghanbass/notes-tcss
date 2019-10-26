@@ -1,6 +1,6 @@
 ---
 title: "Blockchain Skills"
-tag: "dev"
+tag: ["dev"]
 ---
 
 * <a href="https://www.ethereum.org/">Ethereum</a>

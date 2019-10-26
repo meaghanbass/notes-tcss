@@ -1,6 +1,6 @@
 ---
 title: "CDNs"
-tag: "dev"
+tag: ["dev"]
 ---
 
 ### Solaris

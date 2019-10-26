@@ -6,7 +6,7 @@ export default ({ children }) => {
     const data = useStaticQuery(
         graphql`
             query {
-                allMarkdownRemark(filter: {frontmatter: {tag: {in: "dev"}}}) {
+                allMarkdownRemark(filter: {frontmatter: {tag: {in: "aws"}}}) {
                     edges {
                     node {
                         frontmatter {
@@ -25,7 +25,7 @@ export default ({ children }) => {
     return (
         <React.Fragment>
             <div className="tag-listings">
-            <QueryList>Development</QueryList>
+            <QueryList>AWS</QueryList>
                 <ul>
                     {data.allMarkdownRemark.edges.map(({ node }) => (
                         <React.Fragment>

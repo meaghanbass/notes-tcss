@@ -1,6 +1,6 @@
 ---
 title: "Dev Resources"
-tag: "dev"
+tag: ["dev"]
 ---
 
 * <a href="https://bit.dev/" target="_blank" rel="noopener">bit</a>

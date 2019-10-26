@@ -1,6 +1,6 @@
 ---
 title: "Book List"
-tag: "russian-history"
+tag: ["russian-history"]
 ---
 
 - [x] The Emergence of Rus: 750 - 1200

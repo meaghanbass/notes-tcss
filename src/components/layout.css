@@ -168,13 +168,16 @@ ul li {
   height: 500px;
 }
 
-footer {
-  margin-bottom: 30px;
-  margin-top: 70px;
+.minimal-footer {
+  text-align: center;
+  color: var(--gray-1);
 }
+
 footer img {
   display: block;
   margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {

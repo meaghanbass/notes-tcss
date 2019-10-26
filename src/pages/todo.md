@@ -1,6 +1,6 @@
 ---
 title: "To Do"
-tag: "other"
+tag: ["other"]
 ---
 
 - [ ] Add search functionaliy

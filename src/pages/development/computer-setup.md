@@ -1,6 +1,6 @@
 ---
 title: "New Computer Setup"
-tag: "dev"
+tag: ["dev"]
 ---
 
 - [ ] &nbsp; npm

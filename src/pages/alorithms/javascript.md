@@ -1,6 +1,6 @@
 ---
 title: "Javascript Algorithms"
-tag: "algorithms"
+tag: ["algorithms","dev"]
 ---
 
 ### Increment/Decrement

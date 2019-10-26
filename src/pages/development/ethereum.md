@@ -1,6 +1,6 @@
 ---
 title: "Ethereum"
-tag: "dev"
+tag: ["dev"]
 ---
 
 Clients

@@ -1,6 +1,6 @@
 ---
 title: "Hosting CDNs on AWS"
-tag: "dev"
+tag: ["dev","aws"]
 ---
 
 1. Create an S3 Bucket

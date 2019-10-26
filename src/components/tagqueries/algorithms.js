@@ -6,7 +6,7 @@ export default ({ children }) => {
     const data = useStaticQuery(
         graphql`
             query {
-                allMarkdownRemark(filter: {frontmatter: {tag: {eq: "algorithms"}}}) {
+                allMarkdownRemark(filter: {frontmatter: {tag: {in: "algorithms"}}}) {
                     edges {
                     node {
                         frontmatter {

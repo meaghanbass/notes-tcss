@@ -1,6 +1,6 @@
 ---
 title: "Deploying to Netlify"
-tag: "dev"
+tag: ["dev"]
 ---
 
 * Push site to GitHub

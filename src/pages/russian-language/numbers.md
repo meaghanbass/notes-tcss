@@ -1,6 +1,6 @@
 ---
 title: "Numbers"
-tag: "russian-language"
+tag: ["russian-language"]
 emoji: "🇷🇺"
 ---
 

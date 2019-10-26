@@ -1,6 +1,6 @@
 ---
 title: "Russian tag page"
-tag: "russian-language"
+tag: ["russian-language"]
 ---
 
 Pandas are really sweet.
