@@ -148,7 +148,6 @@ section code {
 }
 
 
-
 @media screen and (max-width: 768px) {
     .markdown {
         max-width: 90%;
@@ -158,5 +157,8 @@ section code {
     }
     .markdown ul{
         padding-left: 25px;
+    }
+    iframe.flashcards {
+        height: 400px;
     }
 }
