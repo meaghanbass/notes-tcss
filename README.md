@@ -1,5 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<img src="/src/images/fav_transparent.png">
+<center>
+<img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png"><img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png"><img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png">
+</center>
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
