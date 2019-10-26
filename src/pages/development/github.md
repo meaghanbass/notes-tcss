@@ -9,11 +9,11 @@ tag: ["dev","github"]
     <h4>Setup</h4>
     <table class="col-2">
         <tr>
-            <td class="code">git config --global username "[firstname lastname]"</td>
+            <td class="code">git config --global username [firstname lastname]</td>
             <td>Set a name that is identifiable for credit when review version history</td>
         </tr>
         <tr>
-            <td class="code">git config --global useremail "[email address]"</td>
+            <td class="code">git config --global useremail [email address]</td>
             <td>Set an email address that will be associated with each history marker</td>
         </tr>
         <tr>

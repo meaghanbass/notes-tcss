@@ -218,6 +218,10 @@ section code {
     .markdown {
         max-width: 90%;
     }
+    .markdown td {
+        width: 100% !important;
+        display: block;
+    }
     .markdown ol{
         padding-left: 15px;
     }
