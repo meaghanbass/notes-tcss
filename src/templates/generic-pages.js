@@ -10,7 +10,6 @@ export default ({ data }) => {
         <React.Fragment>
             
             <Layout>
-                {/* <Button></Button> */}
                 <div className="markdown">
                 <Button></Button>
                     <h1>{post.frontmatter.title} {" "} {post.frontmatter.emoji}</h1>
