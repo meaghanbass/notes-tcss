@@ -46,8 +46,8 @@ body {
 
 main {
   /* padding-top: 90px; */
-  padding-bottom: 90px;
-  min-height: 100vh;
+  /* padding-bottom: 90px; */
+  /* min-height: 100vh; */
   display: flex;
 }
 
@@ -140,6 +140,7 @@ ul li {
 
 .tag-listings ul {
   padding: 0;
+  columns: 2;
 }
 
 .tag-listings ul li {
@@ -167,8 +168,21 @@ ul li {
   height: 500px;
 }
 
+footer {
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+footer img {
+  display: block;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
   .index-wrapper {
     margin-top: 30px;
+  }
+
+  .tag-listings ul {
+    columns: 1;
   }
 }

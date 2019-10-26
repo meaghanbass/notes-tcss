@@ -27,24 +27,18 @@ export default ({ children }) => {
   return (
     <React.Fragment>
       <main>
-          {/* <div style={{
-            display: `flex`,
-            flexDirection: `column`,
-            alignSelf: `center`,
-            fontWeight: `300`,
-            color: `var(--slate)`,
-          }}
-          > */}
+        {children}
+      </main>
 
-              {children}
+      
 
-          {/* </div> */}
-        </main>
-        <footer
+{/* [![Netlify Status](https://api.netlify.com/api/v1/badges/ed02e763-a461-4b3d-880b-76a016a6e55d/deploy-status)](https://app.netlify.com/sites/mbnotes/deploys) */}
+
+        {/* <footer
           
         >
           {data.site.siteMetadata.title}
-        </footer>
+        </footer> */}
       </React.Fragment>
   )
 }
