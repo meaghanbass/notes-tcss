@@ -1,5 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-## README
+<img src="/src/images/fav_transparent.png">
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
