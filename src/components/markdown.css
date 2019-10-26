@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
+
 .markdown {
     /* width: 960px; */
     width: 740px;
@@ -41,7 +43,8 @@
 }
 
 .markdown .code {
-    font-family: monospace;
+    /* font-family: monospace; */
+    font-family: 'Inconsolata', monospace;
     font-size: 14px;
 }
 
@@ -130,9 +133,11 @@
     display: flex;
     align-content: center;
     max-width: max-content;
+    font-family: 'Inconsolata', monospace;
 }
 
 .markdown pre code {
+    font-family: 'Inconsolata', monospace;
     line-height: 1.6;
     display: flex;
 }
@@ -195,6 +200,7 @@ section code {
     /* background: rgba(144,102,184,0.2); */
     /* padding: 0.1rem 0.4rem; */
     font-weight: 700;
+    font-family: 'Inconsolata', monospace;
 }
 
 .marker-green {
