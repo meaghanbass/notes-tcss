@@ -1,6 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <center>
+<div style="display:inline-block;">
 <img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png"><img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png"><img src="https://s3-us-west-1.amazonaws.com/assetsglobal/fav_transparent.png">
+<div>
 </center>
 1.  **Open the source code and start editing!**
 
