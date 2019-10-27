@@ -9,3 +9,6 @@ tag: ["dev"]
 
 ### Trek
 * https://s3-us-west-1.amazonaws.com/theme.trek/themetrek.css
+
+### Link To Images in AWS /globalassets Folder
+* https://s3-us-west-1.amazonaws.com/assetsglobal/twitter-outline.png
