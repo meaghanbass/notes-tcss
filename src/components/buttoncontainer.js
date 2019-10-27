@@ -42,6 +42,13 @@ const Styles = styled.div`
         font-size: 15px;
         text-transform: lowercase;
     }
+
+    @media screen and (max-width: 768px) {
+        button {
+            flex: 0 0 100%;
+            margin: 1% 0;
+        }
+    }
 `
 
 export default () => (
@@ -61,7 +68,7 @@ export default () => (
                     <a href="/russian-history/resources/">Russian Res.<span class="marker-green-md ml-2"></span></a>
                 </button>
                 <button className="gray">
-                    <a href="/development/keyboard-shortcuts/">kbd shortcuts<span class="marker-green-md ml-2"></span></a>
+                    <a href="/development/keyboard-shortcuts/">shortcuts<span class="marker-green-md ml-2"></span></a>
                 </button>
                 <button className="purple">
                     <a href="/development/github/">GitHub<span class="marker-green-md ml-2"></span></a>
