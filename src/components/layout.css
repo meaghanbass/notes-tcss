@@ -25,6 +25,23 @@ html {
 ::-moz-selection {
   background: #77dab2;
 }
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+.ml-1 {
+  margin-left: 0.25rem !important;
+}
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+.ml-3 {
+  margin-left: 0.75rem !important;
+}
+.ml-4 {
+  margin-left: 1rem !important;
+}
+
 body {
   margin: 0;
   text-rendering: optimizeLegibility !important;
@@ -166,6 +183,36 @@ ul li {
 #flashcards {
   width: 600px;
   height: 500px;
+}
+
+.marker-green-sm {
+  background-color: var(--green);
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: inline-block;
+  margin-bottom: 2.5px;
+  margin-right: 5px;
+}
+
+.marker-green-md {
+  background-color: var(--green);
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 1.5px;
+  margin-right: 5px;
+}
+
+.marker-green-lg {
+  background-color: var(--green);
+  width: 11px;
+  height: 11px;
+  border-radius: 5.5px;
+  display: inline-block;
+  margin-bottom: 0.5px;
+  margin-right: 5px;
 }
 
 .minimal-footer {

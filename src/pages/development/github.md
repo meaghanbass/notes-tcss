@@ -81,6 +81,6 @@ tag: ["dev","github"]
 
 <div class="card">
     <section>
-        <span class="marker-green"></span><a href="https://education.github.com/git-cheat-sheet-education.pdf">See more in a PDF from GitHub</a>
+        <span class="marker-green-sm"></span><a href="https://education.github.com/git-cheat-sheet-education.pdf">See more in a PDF from GitHub</a>
     </section>
 </div>

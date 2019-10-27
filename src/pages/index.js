@@ -1,5 +1,6 @@
 import React from "react"
 // import { Link, graphql } from "gatsby"
+import ButtonContainer from "../components/buttoncontainer"
 
 import Layout from "../components/layout"
 import RussianLanguage from "../components/tagqueries/russian-language"
@@ -15,6 +16,7 @@ export default ({ data }) => {
     <Layout>
       <div className="index-wrapper">
         <h1>Notes</h1>
+        <ButtonContainer></ButtonContainer>
         <Other></Other>
         <RussianLanguage></RussianLanguage>
         <RussianHistory></RussianHistory>
