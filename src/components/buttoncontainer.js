@@ -57,22 +57,22 @@ export default () => (
         <Styles>
             <div className="button-container">
                 <button className="purple">
-                    <a href="/alorithms/javascript/">JavaScript<span class="marker-green-md ml-2"></span></a>
+                    <a href="/alorithms/javascript/">JavaScript<span className="marker-green-md ml-2"></span></a>
                 </button>
                 <button className="green">
-                    <a href="/development/flexbox/">CSS Flexbox<span class="marker-green-md ml-2"></span></a>
+                    <a href="/development/flexbox/">CSS Flexbox<span className="marker-green-md ml-2"></span></a>
                 </button>
                 <button className="gray">
-                    <a href="/development/cdns/">CDNs<span class="marker-green-md ml-2"></span></a>
+                    <a href="/development/cdns/">CDNs<span className="marker-green-md ml-2"></span></a>
                 </button>
                 <button className="green">
-                    <a href="/russian-history/resources/">Russian Res.<span class="marker-green-md ml-2"></span></a>
+                    <a href="/russian-history/resources/">Russian Res.<span className="marker-green-md ml-2"></span></a>
                 </button>
                 <button className="gray">
-                    <a href="/development/keyboard-shortcuts/">shortcuts<span class="marker-green-md ml-2"></span></a>
+                    <a href="/development/keyboard-shortcuts/">shortcuts<span className="marker-green-md ml-2"></span></a>
                 </button>
                 <button className="purple">
-                    <a href="/development/github/">GitHub<span class="marker-green-md ml-2"></span></a>
+                    <a href="/development/github/">GitHub<span className="marker-green-md ml-2"></span></a>
                 </button>
             </div>
         </Styles>

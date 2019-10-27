@@ -28,7 +28,7 @@ export default ({ children }) => {
     <React.Fragment>
       <main>{children}</main>
 
-      <footer class="minimal-footer">&copy; 2019. Meaghan Bass - {data.site.siteMetadata.title}</footer>
+      <footer className="minimal-footer">&copy; 2019. Meaghan Bass - {data.site.siteMetadata.title}</footer>
       </React.Fragment>
   )
 }
