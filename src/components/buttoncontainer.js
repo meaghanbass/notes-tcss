@@ -19,7 +19,7 @@ const Styles = styled.div`
         border-radius: 3px;
         box-shadow: 0 1px 1px rgba(102,119,136,.55);
         text-shadow: 0 1px 1px rgba(51,68,85,.3);
-        padding: 16px;
+        // padding: 16px;
     }
 
     .purple {
@@ -41,6 +41,7 @@ const Styles = styled.div`
         color: white;
         font-size: 15px;
         text-transform: lowercase;
+        padding: 16px;
     }
 
     @media screen and (max-width: 768px) {
