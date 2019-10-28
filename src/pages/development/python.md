@@ -15,7 +15,20 @@ tag: ["dev","language","algorithms"]
             <td>Practice your Python skills in the cloud.</td>
         </tr>
     </table>
-    <!-- <section>
-        <span class="marker-green-sm"></span><a href="https://hackernoon.com/9-great-tools-for-algo-trading-e0938a6856cd">Additional resources from Hacker Noon</a>
-    </section> -->
+    <section>
+        <span class="marker-green-sm"></span><a href="/development/python-libraries/">See also: Python Libraries</a>
+    </section>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Info Header</h4>
+            <li class="nobullet">
+                <code>here is some info;</code>
+                <code>console.log(a++);</code>
+                <code>console.log(a); &ensp;&ensp;&ensp;&ensp; // 2</code>
+                <code>console.log(++a); &ensp;&ensp; // 2</code>
+            </li>
+        <section>Removes new lines at the end of <code>gets</code></section>
+    </ul>
 </div>

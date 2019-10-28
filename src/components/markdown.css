@@ -133,6 +133,14 @@
     height: 0;
 }
 
+.markdown .card .nobullet code {
+    display: block;
+}
+
+.markdown .card code {
+    display: inline-block;
+}
+
 .markdown .task-list-item {
     list-style-type: none;
 }
@@ -201,7 +209,7 @@ section {
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
     margin: 0;
     font-style: italic;
-    text-indent: 29px;
+    padding-left: 29px;
 }
 
 section code {
