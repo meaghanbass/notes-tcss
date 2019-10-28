@@ -1,6 +1,6 @@
 ---
 title: "Python Libraries"
-tag: ["dev","python","fintech"]
+tag: ["dev","python","fintech","trading"]
 ---
 
 <div class="card">
