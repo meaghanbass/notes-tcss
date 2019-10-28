@@ -137,6 +137,10 @@
     display: block;
 }
 
+.markdown .card .nobullet code:first-of-type {
+    margin-top: -20px;
+}
+
 .markdown .card code {
     display: inline-block;
 }

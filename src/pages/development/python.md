@@ -1,6 +1,6 @@
 ---
 title: "Python"
-tag: ["dev","language","algorithms"]
+tag: ["dev","language",]
 ---
 
 <div class="card">
@@ -22,13 +22,12 @@ tag: ["dev","language","algorithms"]
 
 <div class="card">
     <ul>
-        <h4>Info Header</h4>
+        <h4>Basics</h4>
             <li class="nobullet">
-                <code>here is some info;</code>
-                <code>console.log(a++);</code>
-                <code>console.log(a); &ensp;&ensp;&ensp;&ensp; // 2</code>
-                <code>console.log(++a); &ensp;&ensp; // 2</code>
+                <code>print("Hello, World!") # this is a comment</code>
+                <code># this is also a comment</code>
             </li>
-        <section>Removes new lines at the end of <code>gets</code></section>
+        <!-- <section>Removes new lines at the end of <code>gets</code></section> -->
     </ul>
 </div>
+
