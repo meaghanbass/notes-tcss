@@ -1,6 +1,6 @@
 ---
 title: "Pine Script"
-tag: ["dev","algorithms","trading","fintech"]
+tag: ["dev","algorithms","trading","fintech","language"]
 ---
 
 * <a href="https://www.tradingview.com/blog/en/tradingview-s-pine-script-introduction-203/" target="_blank">TradingView's Pine Script Introduction</a>

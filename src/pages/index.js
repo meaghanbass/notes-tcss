@@ -10,6 +10,7 @@ import RussianHistory from "../components/tagqueries/russian-history"
 import Development from "../components/tagqueries/development"
 import Algorithms from "../components/tagqueries/algorithms"
 import AWS from "../components/tagqueries/aws"
+import ProgrammingLanguages from "../components/tagqueries/programming-languages"
 
 export default ({ data }) => {
   return (
@@ -32,9 +33,10 @@ export default ({ data }) => {
         <Other></Other>
         <RussianLanguage></RussianLanguage>
         <RussianHistory></RussianHistory>
+        <AWS></AWS>
         <Development></Development>
         <Algorithms></Algorithms>
-        <AWS></AWS>
+        <ProgrammingLanguages></ProgrammingLanguages>
 
         <footer>
           <img src="https://api.netlify.com/api/v1/badges/ed02e763-a461-4b3d-880b-76a016a6e55d/deploy-status" alt="Netlify Status"></img>

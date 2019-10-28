@@ -1,6 +1,6 @@
 ---
 title: "Ruby"
-tag: ["dev"]
+tag: ["dev","language"]
 ---
 
 <div class="card">
