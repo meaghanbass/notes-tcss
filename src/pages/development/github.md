@@ -76,6 +76,10 @@ tag: ["dev","github"]
             <td class="code">git diff --staged</td>
             <td>Difference of what is staged but not yet committed</td>
         </tr>
+        <tr>
+            <td class="code">git pull</td>
+            <td>Fetch and merge any commits from the tracking remote branch</td>
+        </tr>
     </table>
 </div>
 
