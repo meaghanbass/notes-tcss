@@ -78,6 +78,14 @@
     width: 50%;
 }
 
+.markdown table.col-1_2 td:first-child {
+    width: 33.333%;
+}
+
+.markdown table.col-1_2 td:nth-child(2) {
+    width: 66.666%;
+}
+
 .markdown table.col-3 td {
     width: 33.333%;
 }
