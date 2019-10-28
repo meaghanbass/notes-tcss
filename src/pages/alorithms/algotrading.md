@@ -5,7 +5,23 @@ tag: ["algorithms","trading","fintech"]
 
 <div class="card">
     <ul>
-        <h4>RSI+MA+STOCH - <em>TradingView Pine Script<em></h4>
+        <h4>Resources</h4>
+            <li>
+                <a href="https://www.tenquant.io/?page_id=64" target="_blank">TenQuant</a>
+            </li>
+            <li>
+                <a href="https://github.com/Ladinn/algotrader" target="_blank">Alotrader</a>
+            </li>
+            <li>
+                <a href="https://blog.rinatussenov.com/gdax-algorithmic-trading-with-nodejs-701959d78d97" target="_blank">GDAX: Algorithmic trading with NodeJs</a>
+            </li>
+    </ul>
+</div>
+
+<div class="card">
+    <ul>
+        <details class="accordion">
+            <summary>RSI+MA+STOCH - <em>TradingView Pine Script</em></summary>
             <li class="nobullet">
                 <code>
 <pre>
@@ -42,7 +58,8 @@ alertcondition(sell_signals, title='Sell-Signal', message='price is above the MA
 
 <div class="card">
     <ul>
-        <h4>Histogram - <em>TradingView Pine Script<em></h4>
+        <details class="accordion">
+            <summary>Histogram - <em>TradingView Pine Script</em></summary>
             <li class="nobullet">
                 <code>
 <pre>
@@ -58,7 +75,8 @@ plot(histLine, color=red, style=histogram, linewidth=5)
 
 <div class="card">
     <ul>
-        <h4>FOREX_RSI - <em>TradingView Pine Script<em></h4>
+        <details class="accordion">
+            <summary>FOREX_RSI - <em>TradingView Pine Script</em></summary>
             <li class="nobullet">
                 <code>
 <pre>
@@ -91,7 +109,8 @@ alertcondition(sell_signals, title='Sell-Signal', message='RSI is above 70')
 
 <div class="card">
     <ul>
-        <h4>CM_MACD-Histogram-Colr - <em>TradingView Pine Script<em></h4>
+        <details class="accordion">
+            <summary>CM_MACD-Histogram-Color - <em>TradingView Pine Script</em></summary>
             <li class="nobullet">
                 <code>
 <pre>
