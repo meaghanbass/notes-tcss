@@ -84,6 +84,42 @@ of the text.""")                        of the text</pre></code>
 
 <div class="card">
     <ul>
+        <h4>Type Conversion Functions</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+print(3.14, int(3.14))                  3.14 3
+print(3.9999, int(3.9999))              3.9999 3
+print(3.0, int(3.0))                    3.0 3
+print(-3.999, int(-3.999))              -3.999 -3
+<br>
+print("2345", int("2345"))              2345 2345
+print(17, int(17))                      17 17
+print(int("23bottles"))                 ValueError: invalid literal for int() with base 10: '23bottles' </pre></code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+val = 50 + 5
+print("the value is " + str(val))</pre></code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+print(float("123.45"))                  123.45
+print(type(float("123.45")))            < class 'float'></pre></code>
+            </li>
+    </ul>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Variables</h4>
+            <li class="nobullet">
+                <code>x</code>
+            </li>
+    </ul>
+</div>
+
+<div class="card">
+    <ul>
         <h4>Functions</h4>
             <li class="nobullet">
                 <code>functionName(argument)</code>
