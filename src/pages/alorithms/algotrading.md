@@ -164,10 +164,17 @@ sell_signals = close > ma and rsi > 70 and stoch > 80
 </div>
 
 <div class="card">
-    <h4>Quantiacs</h4>
+    <h4><a href="https://www.quantiacs.com/">Quantiacs</a></h4>
         <table>
             <li class="nobullet code">>> python</li>
             <li><code>returnDict = quantiacsToolbox.runts('pathname.py')</code><br>
             <i class="tab"><em>runs the trading system from Python console</em></i></li>
+        </table>
+</div>
+
+<div class="card">
+    <h4><a href="https://www.quantopian.com/home">Quantopian</a></h4>
+        <table>
+            <li><a href="https://www.quantopian.com/tutorials/getting-started#lesson1">Tutorials</a></li>
         </table>
 </div>
