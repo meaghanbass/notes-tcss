@@ -1,5 +1,5 @@
 ---
-title: "Algotrading"
+title: "Algorithmic Trading"
 tag: ["algorithms","trading","fintech"]
 ---
 
@@ -14,6 +14,9 @@ tag: ["algorithms","trading","fintech"]
             </li>
             <li>
                 <a href="https://blog.rinatussenov.com/gdax-algorithmic-trading-with-nodejs-701959d78d97" target="_blank">GDAX: Algorithmic trading with NodeJs</a>
+            </li>
+            <li>
+                <a href="https://seaborn.pydata.org/index.html" target="_blank">Seaborn: Statistical data visualization</a>
             </li>
     </ul>
 </div>
