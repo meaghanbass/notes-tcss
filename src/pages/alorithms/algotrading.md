@@ -21,13 +21,14 @@ tag: ["algorithms","trading","fintech"]
     </ul>
 </div>
 
-<div class="card">
-    <ul>
-        <details class="accordion">
-            <summary>RSI+MA+STOCH - <em>TradingView Pine Script</em></summary>
-            <li class="nobullet">
-                <code>
-<pre>
+<div class="accordion-wrapper">
+    <div class="card">
+        <ul>
+            <details class="accordion">
+                <summary>RSI+MA+STOCH - <em>TradingView Pine Script</em></summary>
+                <li class="nobullet">
+                    <code>
+    <pre>
 //@version=2
 study("RSI+MA", overlay=true)
  
@@ -155,9 +156,10 @@ buy_signals = close < ma and rsi < 30 and stoch < 20 and histB_IsUp > 0
 //data series for sell signals: 
 //price should be above the moving average and RSI should be above 60
 sell_signals = close > ma and rsi > 70 and stoch > 80 
-</pre>
-                </code>
-            </li>
-    </ul>
+    </pre>
+                    </code>
+                </li>
+        </ul>
+    </div>
 </div>
 
