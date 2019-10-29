@@ -120,9 +120,13 @@ print(type(float("123.45")))            < class 'float'></pre></code>
 
 <div class="card">
     <ul>
-        <h4>Functions</h4>
+        <h4>Functions, Statements, and Expressions</h4>
             <li class="nobullet">
                 <code>functionName(argument)</code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+print(len("hello"))                     5</pre></code>
             </li>
     </ul>
 </div>
