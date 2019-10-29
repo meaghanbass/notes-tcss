@@ -29,6 +29,10 @@
     margin: 0;
 }
 
+.tab {
+    margin-left: 2rem;
+}
+
 .markdown li {
     line-height: 2;
 }
@@ -47,6 +51,8 @@
     font-family: 'Inconsolata', monospace;
     font-size: 14px;
 }
+
+
 
 .markdown th {
     text-align: left;
@@ -74,6 +80,10 @@
     line-height: 1.6;
 }
 
+.markdown table.col-1 td {
+    width: 100%;
+}
+
 .markdown table.col-2 td {
     width: 50%;
 }
@@ -86,8 +96,24 @@
     width: 66.666%;
 }
 
+.markdown table.col-2_1 td:first-child {
+    width: 66.666%;
+}
+
+.markdown table.col-2_1 td:nth-child(2) {
+    width: 33.333%;
+}
+
 .markdown table.col-3 td {
     width: 33.333%;
+}
+
+.markdown table.col-3_2 td:first-child {
+    width: 60%;
+}
+
+.markdown table.col-3_2 td:nth-child(2) {
+    width: 40%;
 }
 
 .markdown .card {
@@ -143,6 +169,7 @@
 
 .markdown .card code {
     display: inline-block;
+    font-family: 'Inconsolata', monospace;
 }
 
 .markdown .task-list-item {

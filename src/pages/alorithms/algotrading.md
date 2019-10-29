@@ -163,3 +163,11 @@ sell_signals = close > ma and rsi > 70 and stoch > 80
     </div>
 </div>
 
+<div class="card">
+    <h4>Quantiacs</h4>
+        <table>
+            <li class="nobullet code">>> python</li>
+            <li><code>returnDict = quantiacsToolbox.runts('pathname.py')</code><br>
+            <i class="tab"><em>runs the trading system from Python console</em></i></li>
+        </table>
+</div>
