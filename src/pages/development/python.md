@@ -1,6 +1,6 @@
 ---
 title: "Python"
-tag: ["dev","language",]
+tag: ["dev","language"]
 ---
 
 <div class="card">
@@ -60,18 +60,18 @@ print(2 ** 3 ** 2)    # the right-most ** operator gets done first!</pre></code>
         <h4>Data Types</h4>
             <li class="nobullet">
                 <code><pre class="pre-sm white">
-print(type("Hello, world"))             < class 'str'>
-print(type(17))                         < class 'int'>
+print(type("Hello, world"))             &lt;class 'str'>
+print(type(17))                         &lt;class 'int'>
 print("Hello, world")                   Hello, world
-print(type(3.2))                        < class 'float'>
-print(type("3.2"))                      < class 'str'></pre></code>
+print(type(3.2))                        &lt;class 'float'>
+print(type("3.2"))                      &lt;class 'str'></pre></code>
             </li>
             <li class="nobullet">
                 <code><pre class="pre-sm white">
-print(type('This is a string.'))        < class 'str'>
-print(type("And so is this."))          < class 'str'>
-print(type("""and this."""))            < class 'str'>
-print(type('''and even this.'''))       < class 'str'></pre></code>
+print(type('This is a string.'))        &lt;class 'str'>
+print(type("And so is this."))          &lt;class 'str'>
+print(type("""and this."""))            &lt;class 'str'>
+print(type('''and even this.'''))       &lt;class 'str'></pre></code>
             </li>
             <li class="nobullet">
                 <code><pre class="pre-sm white">
@@ -104,7 +104,7 @@ print("the value is " + str(val))</pre></code>
             <li class="nobullet">
                 <code><pre class="pre-sm white">
 print(float("123.45"))                  123.45
-print(type(float("123.45")))            < class 'float'></pre></code>
+print(type(float("123.45")))            &lt;class 'float'></pre></code>
             </li>
     </ul>
 </div>
@@ -113,7 +113,13 @@ print(type(float("123.45")))            < class 'float'></pre></code>
     <ul>
         <h4>Variables</h4>
             <li class="nobullet">
-                <code>x</code>
+                <code><pre class="pre-sm white">
+x = 6
+print(x)            6
+x += 3
+print(x)            9
+x -= 1
+print(x)            8</pre></code>
             </li>
     </ul>
 </div>
@@ -128,6 +134,28 @@ print(type(float("123.45")))            < class 'float'></pre></code>
                 <code><pre class="pre-sm white">
 print(len("hello"))                     5</pre></code>
             </li>
+    </ul>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Inputs</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+input("Please enter your name: ")
+print("Hello", n)</pre></code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">total_secs = int(input("Please enter the number of seconds you wish to convert: "))
+<br>
+hours = total_secs // 3600
+secs_still_remaining = total_secs % 3600
+minutes = secs_still_remaining // 60
+secs_finally_remaining = secs_still_remaining % 60
+<br>
+print("Hours = ", hours,", Minutes = ", minutes,", Seconds = ", secs_finally_remaining)</pre></code>
+            </li>
+        <section>Values of inputs are always passed in as strings.</section>
     </ul>
 </div>
 
