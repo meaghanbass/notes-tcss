@@ -33,25 +33,6 @@
     margin-left: 2rem;
 }
 
-.markdown li {
-    line-height: 2;
-}
-
-.markdown li p {
-    margin: 0;
-}
-
-.markdown table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.markdown .code {
-    /* font-family: monospace; */
-    font-family: 'Inconsolata', monospace;
-    font-size: 14px;
-}
-
 
 
 .markdown th {
@@ -167,6 +148,35 @@
     margin-top: -20px;
 }
 
+.markdown li {
+    line-height: 2;
+}
+
+.markdown li p {
+    margin: 0;
+}
+
+.markdown .subitem {
+    padding-left: 4rem !important;
+}
+
+.markdown table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.markdown .code {
+    /* font-family: monospace; */
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+}
+
+.markdown .code-error {
+    color: red;
+    font-weight: bold;
+    display: contents;
+}
+
 .markdown .card code {
     display: inline-block;
     font-family: 'Inconsolata', monospace;
@@ -263,6 +273,8 @@ section code {
 
 .accordion-wrapper {
     box-shadow: 0 6px 8px rgba(102,119,136,.03),0 1px 2px rgba(102,119,136,.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .accordion-wrapper .card {

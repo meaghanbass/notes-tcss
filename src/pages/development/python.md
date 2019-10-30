@@ -159,4 +159,78 @@ print("Hours = ", hours,", Minutes = ", minutes,", Seconds = ", secs_finally_rem
     </ul>
 </div>
 
+<div class="card">
+    <ul>
+        <h4>For Loop</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">print("This will execute first")                           This line will execute first
+                                                           This line will execute three times
+for _ in range(3):                                         This line will also execute three times
+    print("This line will execute three times")            This line will execute three times
+    print("This line will also execute three times")       This line will also execute three times
+                                                           This line will execute three times
+print("Now we are outside of the for loop!")               This line will also execute three times
+                                                           Now we are outside of the for loop!</pre></code>
+            </li>
+    </ul>
+</div>
+
+<div class="accordion-wrapper">
+    <div class="card">
+        <ul>
+        <h4>Importing Modules</h4>
+            <details class="accordion">
+                <summary>random()</summary>
+                <li class="nobullet">
+                    <code>
+    <pre>
+import random
+<br>
+prob = random.random()
+print(prob)
+<br>
+diceThrow = random.randrange(1,7)
+print(diceThrow)            #return an int, one of 1,2,3,4,5,6</pre>
+                    </code>
+                </li>
+        </ul>
+    </div>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Syntax Errors</h4>
+            <li class="nobullet">
+                Forgetting a semi-colon at the end of a statement where one is required.
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">print("Hello world!"<span class="code-error">)                           SyntaxError: unexpected EOF while parsing</span></pre></code>
+            </li>
+            <li class="nobullet">
+                <b>ParseError:</b> the result of a syntax error.
+            </li>
+    </ul>
+    <ul>
+        <h4>Runtime Errors</h4>
+            <li class="nobullet">
+                Attempting to divide by 0.
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">print(3/0)                                      <span class="code-error">ZeroDivisionError: division by zero</span>
+#division by zero is not a legal operation</pre></code>
+            </li>
+    </ul>
+    <ul>
+        <h4>Semantic Errors - <em>the code will run, but not as intended by the user</em></h4>
+            <li class="nobullet">
+                Forgetting to divide by 100 when printing a percentage amount.
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">print("one half as a percentage is ", 1/2)      one half as a percentage is  0.5</pre></code>
+            </li>
+        <!-- <section>x</section> -->
+    </ul>
+</div>
+
+
 <iframe class="pyide" src="https://repl.it/repls/CraftyWorthlessNonlinearprogramming?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

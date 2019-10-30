@@ -54,36 +54,34 @@ plotshape(sell_signals, style=shape.triangledown, text="sell")
 // create alert conditions so that alerts can be create via the add alerts dialog
 alertcondition(buy_signals, title='Buy-Signal', message='price is below the MA and RSI is below 40')
 alertcondition(sell_signals, title='Sell-Signal', message='price is above the MA and RSI is above 70')
-</pre>
-                </code>
-            </li>
-    </ul>
-</div>
-
-<div class="card">
-    <ul>
-        <details class="accordion">
-            <summary>Histogram - <em>TradingView Pine Script</em></summary>
-            <li class="nobullet">
-                <code>
-<pre>
+    </pre>
+                    </code>
+                </li>
+        </ul>
+    </div>
+    <div class="card">
+        <ul>
+            <details class="accordion">
+                <summary>Histogram - <em>TradingView Pine Script</em></summary>
+                <li class="nobullet">
+                    <code>
+    <pre>
 // Example 1
 study('Histogram')
 [_, _, histLine] = macd(close, 12, 26, 9)
 plot(histLine, color=red, style=histogram, linewidth=5)
-</pre>
-                </code>
-            </li>
-    </ul>
-</div>
-
-<div class="card">
-    <ul>
-        <details class="accordion">
-            <summary>FOREX_RSI - <em>TradingView Pine Script</em></summary>
-            <li class="nobullet">
-                <code>
-<pre>
+    </pre>
+                    </code>
+                </li>
+        </ul>
+    </div>
+    <div class="card">
+        <ul>
+            <details class="accordion">
+                <summary>FOREX_RSI - <em>TradingView Pine Script</em></summary>
+                <li class="nobullet">
+                    <code>
+    <pre>
 //@version=2
 study("FOREX_RSI", overlay=true)
  
@@ -105,19 +103,18 @@ plotshape(sell_signals, style=shape.triangledown, text="sell")
 // create alert conditions so that alerts can be create via the add alerts dialog
 alertcondition(buy_signals, title='Buy-Signal', message='RSI is below 30')
 alertcondition(sell_signals, title='Sell-Signal', message='RSI is above 70')
-</pre>
-                </code>
-            </li>
-    </ul>
-</div>
-
-<div class="card">
-    <ul>
-        <details class="accordion">
-            <summary>CM_MACD-Histogram-Color - <em>TradingView Pine Script</em></summary>
-            <li class="nobullet">
-                <code>
-<pre>
+    </pre>
+                    </code>
+                </li>
+        </ul>
+    </div>
+    <div class="card">
+        <ul>
+            <details class="accordion">
+                <summary>CM_MACD-Histogram-Color - <em>TradingView Pine Script</em></summary>
+                <li class="nobullet">
+                    <code>
+    <pre>
 //Regular MACD Indicator with Histogram that plots 4 Colors Based on Direction Above and Below the Zero Line
  
 study(title="CM_MACD-Histogram-Color", shorttitle="CM_MACD-Hist-Color:)
