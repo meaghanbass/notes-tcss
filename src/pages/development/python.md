@@ -282,5 +282,74 @@ print((fruit+[1]) * 4)                              ['apple', 'orange', 'banana'
     </ul>
 </div>
 
+<div class="card">
+    <ul>
+        <h4>Count and Index</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+a = "I have had an apple on my desk before!"
+print(a.count("e"))
+print(a.count("ha"))</pre></code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+z = ['atoms', 4, 'neutron', 6, 'proton', 4, 'electron', 4, 'electron', 'atoms']
+print(z.count("4"))                                 0
+print(z.count(4))                                   3
+print(z.count("a"))                                 0
+print(z.count("electron"))                          2</pre></code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+music = "Pull out your music and dancing can begin"
+bio = ["Metatarsal", "Metatarsal", "Fibula", [], "Tibia", "Tibia", 43, "Femur", "Occipital", "Metatarsal"]
+print(music.index("m"))                             14
+print(music.index("your"))                          9
+print(bio.index("Metatarsal"))                      0
+print(bio.index([]))                                3
+print(bio.index(43))                                6</pre></code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+seasons = ["winter", "spring", "summer", "fall"]
+print(seasons.index("autumn"))                      <span class="code-error">ValueError: list.index(x): x not in list on line 3</span></pre></code>
+            </li>
+    </ul>
+    <section><pre class="pre-sm">index</pre> returns the leftmost index where the argument is found</section>
+    <section><pre class="pre-sm">count</pre> and <pre class="pre-sm">index</pre> are <b>case sensitive</b></section>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Splitting and Joining Strings</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+song = "The rain in Spain..."
+wds = song.split()
+print(wds)                                          ['The', 'rain', 'in', 'Spain...']</pre></code>
+            </li>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+wds = ["red", "blue", "green"]
+glue = ';'
+s = glue.join(wds)
+print(s)
+print(wds)
+
+print("^^^".join(wds))                              red^^^blue^^^green
+print("".join(wds))                                 redbluegreen</pre></code>
+            </li>
+    </ul>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Splitting and Joining Strings</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+</pre></code>
+            </li>
+    </ul>
+</div>
 
 <iframe class="pyide" src="https://repl.it/repls/CraftyWorthlessNonlinearprogramming?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
