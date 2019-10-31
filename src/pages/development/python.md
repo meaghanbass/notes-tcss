@@ -80,6 +80,31 @@ several lines                           several lines
 of the text.""")                        of the text</pre></code>
             </li>
     </ul>
+    <ul>
+        <details class="accordion">
+            <summary>Strings</summary>
+                <li>Sequential collections of characters</li>
+                <li>The characters are in a particular order from left to right</li>
+                <li>Empty string: <pre class="pre-sm">''</pre> or <pre class="pre-sm">""</pre></li>
+        </details>
+        <details class="accordion">
+            <summary>Lists</summary>
+                <li>Sequential collection of data values, each identified by an index</li>
+                <li>Each data value is an element</li>
+                <li>Each element can contain any data type</li>
+                <li>Lists are held in square brackets: <pre class="pre-sm">[ ]</pre></li>
+                <li class="nobullet"><pre class="pre-sm">[10, 20, 30, 40]
+["spam", "100", 200]
+["hello", 2.0, 5, [10, 20]]</pre>
+                </li>
+        </details>
+        <details class="accordion">
+            <summary>Tuples</summary>
+                <li>Tuples are just like lists, <b>except</b> they are immutable - cannot be changed or modified</li>
+                <li>Tuples are held in parenthesis: <pre class="pre-sm">( )</pre></li>
+                <li>If the tuple only has one element, is has to have a comma after the element <pre class="pre-sm">myTuple = (100,)</pre></li>
+        </details>
+    </ul>
 </div>
 
 <div class="card">
@@ -228,7 +253,32 @@ print(diceThrow)            #return an int, one of 1,2,3,4,5,6</pre>
             <li class="nobullet">
                 <code><pre class="pre-sm white">print("one half as a percentage is ", 1/2)      one half as a percentage is  0.5</pre></code>
             </li>
-        <!-- <section>x</section> -->
+    </ul>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Slicing</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+L = [0.34, '6', 'SI106', 'Python', -2]
+print(len(L[1:-1]))                             3</pre></code>
+            </li>
+    </ul>
+</div>
+
+<div class="card">
+    <ul>
+        <h4>Concatenation and Repetition</h4>
+            <li class="nobullet">
+                <code><pre class="pre-sm white">
+fruit = ["apple","orange","banana","cherry"]
+print([1,2] + [3,4])                                [1, 2, 3, 4]
+print(fruit+[6,7,8,9])                              ['apple', 'orange', 'banana', 'cherry', 6, 7, 8, 9]
+print([0] * 4)                                      [0, 0, 0, 0]
+print((fruit[0]) * 4)                               appleappleappleapple
+print((fruit+[1]) * 4)                              ['apple', 'orange', 'banana', 'cherry',1,'apple', 'orange', 'banana', 'cherry',1,'apple', 'orange', 'banana', 'cherry',1,'apple', 'orange', 'banana', 'cherry',1]</pre></code>
+            </li>
     </ul>
 </div>
 
