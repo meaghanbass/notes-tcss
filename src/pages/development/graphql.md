@@ -19,6 +19,7 @@ tag: ["dev","graphql"]
         <li><pre class="pre-sm">lte</pre> : short for <b>less than or equal</b>, must be less than or equal to given value</li>
         <li><pre class="pre-sm">elemMatch</pre> : short for <b>element match</b>, this indicates that the field you are filtering will return as array of elements, on which you can apply a filter using the previous operators</li>
         <section>GraphiQL can be found at localhost:8000/___graphql</section>
+        <section><span class="marker-green-sm"></span><a href="https://www.howtographql.com/" target="_blank">How to GraphQL</a></section>
     </ul>
 </div>
 

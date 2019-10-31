@@ -4,6 +4,27 @@ tag: ["dev","python","fintech","trading"]
 ---
 
 <div class="card">
+    <h4>General</h4>
+    <table class="col-1_2">
+        <tr>
+            <td><a href="https://awesome-python.com/" target="_blank">Awesome Python</a></td>
+            <td>A curated list of awesome Python frameworks, libraries, software and resourcess</td>
+        </tr>
+        <tr>
+            <td><a href="https://geopy.readthedocs.io/en/latest/" target="_blank">GeoPy</a></td>
+            <td>Python 2 and 3 client for several popular geocoding web services</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.freecodecamp.org/news/an-a-z-of-useful-python-tricks-b467524ee747/" target="_blank">Python Tricks</a></td>
+            <td>An a-z of useful python tricks</td>
+        </tr>
+    </table>
+    <!-- <section>
+        <span class="marker-green-sm"></span><a href="hhttps://medium.com/datadriveninvestor/how-to-build-a-unique-technology-for-your-fintech-product-with-python-f01b6cdfbf4f">Info from this article</a>
+    </section> -->
+</div>
+
+<div class="card">
     <h4>Fintech</h4>
     <table class="col-1_2">
         <tr>
@@ -63,3 +84,4 @@ tag: ["dev","python","fintech","trading"]
         <span class="marker-green-sm"></span><a href="https://hackernoon.com/9-great-tools-for-algo-trading-e0938a6856cd">Additional resources from Hacker Noon</a>
     </section>
 </div>
+
