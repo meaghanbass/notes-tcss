@@ -39,7 +39,7 @@ export default ({ data }) => {
         <ProgrammingLanguages></ProgrammingLanguages>
 
         <footer>
-          <img src="https://api.netlify.com/api/v1/badges/ed02e763-a461-4b3d-880b-76a016a6e55d/deploy-status" alt="Netlify Status"></img>
+          
         </footer>
       </div>
       
