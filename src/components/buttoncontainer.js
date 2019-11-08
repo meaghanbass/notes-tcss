@@ -18,7 +18,6 @@ const Styles = styled.div`
         height: 60px;
         border-radius: 3px;
         box-shadow: 0 1px 1px rgba(102,119,136,.55);
-        text-shadow: 0 1px 1px rgba(51,68,85,.3);
         // padding: 16px;
     }
 
@@ -56,23 +55,23 @@ export default () => (
     <React.Fragment>
         <Styles>
             <div className="button-container">
-                <button className="purple">
-                    <a href="/alorithms/javascript/">JavaScript<span className="marker-green-md ml-2"></span></a>
+                <button className="bg-gray-700">
+                    <a href="/alorithms/javascript/">JavaScript<span className="marker-green-md ml-2 bg-green-300"></span></a>
                 </button>
-                <button className="green">
-                    <a href="/development/flexbox/">CSS Flexbox<span className="marker-green-md ml-2"></span></a>
+                <button className="bg-gray-700">
+                    <a href="/development/flexbox/">CSS Flexbox<span className="marker-green-md ml-2 bg-green-300"></span></a>
                 </button>
-                <button className="gray">
-                    <a href="/development/cdns/">CDNs<span className="marker-green-md ml-2"></span></a>
+                <button className="bg-gray-700">
+                    <a href="/development/cdns/">CDNs<span className="marker-green-md ml-2 bg-green-300"></span></a>
                 </button>
-                <button className="green">
-                    <a href="/russian-history/resources/">Russian Res.<span className="marker-green-md ml-2"></span></a>
+                <button className="bg-gray-700">
+                    <a href="/russian-history/resources/">Russian Res.<span className="marker-green-md ml-2 bg-green-300"></span></a>
                 </button>
-                <button className="gray">
-                    <a href="/development/keyboard-shortcuts/">shortcuts<span className="marker-green-md ml-2"></span></a>
+                <button className="bg-gray-700">
+                    <a href="/development/keyboard-shortcuts/">shortcuts<span className="marker-green-md ml-2 bg-green-300"></span></a>
                 </button>
-                <button className="purple">
-                    <a href="/development/github/">GitHub<span className="marker-green-md ml-2"></span></a>
+                <button className="bg-gray-700">
+                    <a href="/development/github/">GitHub<span className="marker-green-md ml-2 bg-green-300"></span></a>
                 </button>
             </div>
         </Styles>

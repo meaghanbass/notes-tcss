@@ -1,6 +1,7 @@
 @import "../components/rootcolors.css";
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300";
 @import "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css";
+@import "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css";
 
 * {
   box-sizing: inherit;
@@ -47,8 +48,7 @@ body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--gray-1);
-  font-family: 'Source Sans Pro', proxima nova, sans-serif;
+  /* font-family: 'Source Sans Pro', proxima nova, sans-serif; */
   color: var(--gray-4);
   line-height: 1.6;
   font-size: 15px;
@@ -92,7 +92,7 @@ h1 {
 
 h3 {
   text-transform: capitalize;
-  color: var(--purple-dark);
+  /* color: var(--purple-dark); */
   font-weight: 400;
   font-size: 22px;
 }
@@ -153,6 +153,7 @@ ul li {
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, helvetica neue, sans-serif;
   margin-top: 30px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .tag-listings ul {
@@ -174,7 +175,8 @@ ul li {
   display: inline-block;
   width: 5px;
   height: 5px;
-  background: var(--green);
+  /* background: var(--green); */
+  background: var(--slate);
   border-radius: 50%;
   margin-right: 5px;
   margin-bottom: 3px;
@@ -196,7 +198,7 @@ ul li {
 }
 
 .marker-green-md {
-  background-color: var(--green);
+  /* background-color: var(--green); */
   width: 8px;
   height: 8px;
   border-radius: 4px;

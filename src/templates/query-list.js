@@ -4,7 +4,7 @@ export default ({ children }) => {
     return (
         <React.Fragment>
 
-            <h3>{children}</h3>
+            <h3 className="text-gray-700 font-bold">{children}</h3>
 
         </React.Fragment>
     )

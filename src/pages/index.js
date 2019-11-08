@@ -15,8 +15,8 @@ import ProgrammingLanguages from "../components/tagqueries/programming-languages
 export default ({ data }) => {
   return (
     <Layout>
-      <div className="index-wrapper">
-        <h1>Notes</h1>
+      <div className="index-wrapper font-sans">
+        <h1>Title</h1>
 
         {/* <div id="jstest" style={{
           width: `100%`,
