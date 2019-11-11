@@ -16,19 +16,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div className="index-wrapper font-sans">
-        <h1>Title</h1>
-
-        {/* <div id="jstest" style={{
-          width: `100%`,
-          height: `65px`,
-          background: `white`,
-          boxShadow: `0 6px 8px rgba(102,119,136,.03),0 1px 2px rgba(102,119,136,.3)`,
-          marginBottom: `50px`,
-        }}>
-        </div> */}
-
-        {/* <div dangerouslySetInnerHTML={{ __html: "<h3>Hi there!</h3>" }} /> */}
-
+        
         <ButtonContainer></ButtonContainer>
         <Other></Other>
         <RussianLanguage></RussianLanguage>
@@ -38,9 +26,7 @@ export default ({ data }) => {
         <Algorithms></Algorithms>
         <ProgrammingLanguages></ProgrammingLanguages>
 
-        <footer>
-          
-        </footer>
+        <footer></footer>
       </div>
       
     </Layout>
